@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import HeaderImage from "/Images/image-confetti.jpg";
+// import HeroImage from "/Images/hero-bg.png";
 
 const Hero = () => {
 	return (

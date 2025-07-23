@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import Logo from "/Images/logo.png";
 
 const Navbar = () => {
 	return (
@@ -8,7 +9,7 @@ const Navbar = () => {
 			<nav class="bg-light">
 				<div class="container">
 					<a class="navbar-brand" href="#">
-						EnerGize
+						<img src={Logo} alt="EnerGize logo" />
 					</a>
 
 					<div class="">

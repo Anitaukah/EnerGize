@@ -1,6 +1,8 @@
-.Hero{
-    background-image: url("/Images/image-confetti.jpg");
-    background-repeat:no-repeat;
-    height:80vh;
-    object-fit:cover;
+/** @format */
+
+.Hero {
+	background-image: url("/Images/hero-bg.png");
+	background-repeat: no-repeat;
+	height: 80vh;
+	object-fit: cover;
 }
