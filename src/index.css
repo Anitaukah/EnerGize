@@ -1,8 +1,16 @@
 /** @format */
+nav img {
+	width: 8rem;
+}
+nav ul {
+	list-style: none;
+}
 
-.Hero {
+.btn-bg {
+	background-color: rgb(227, 227, 228);
+}
+.Hero-bg {
 	background-image: url("/Images/hero-bg.png");
 	background-repeat: no-repeat;
 	height: 80vh;
-	object-fit: cover;
 }

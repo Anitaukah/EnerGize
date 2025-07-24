@@ -6,7 +6,7 @@ import React from "react";
 const Hero = () => {
 	return (
 		<div className="container">
-			<div className="Hero">
+			<div className="Hero-bg">
 				<div>
 					<h1 className="text-capitalize">
 						Transform your fitness journey today. Start today
