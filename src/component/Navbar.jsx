@@ -2,6 +2,7 @@
 
 import React from "react";
 import Logo from "/Images/logo.png";
+import User from "/Images/user-solid-full.svg"
 
 const Navbar = () => {
 	return (
@@ -12,7 +13,7 @@ const Navbar = () => {
 				</a>
 
 				<div class="ms-auto">
-					<ul class=" d-flex gap-4">
+					<ul class=" d-flex gap-4 list-unstyled">
 						<li class="nav-item fs-6 fw-bolder  ">
 							<a
 								class="nav-link active text-dark"
@@ -36,6 +37,7 @@ const Navbar = () => {
 							class="btn fs-6 fw-bolder text-dark btn-bg"
 							type="button"
 						>
+						<img src={User} alt="User Icon" />
 							Log In
 						</button>
 					</ul>
